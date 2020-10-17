@@ -7,6 +7,6 @@ if(process.argv.length <= 2) {
     process.exit(1)
 }
 
-const ffmpeg = spawn(ffmpegPath, `-i ./public/videos/${process.argv[2]} -codec: copy -start_number 0 -hls_time 10 -hls_list_size 0 -f hls ./public/videos/generated.m3u8`.split(" "));
+const ffmpeg = spawn(ffmpegPath, `-i ./public/videos/${process.argv[2]} -codec: copy -start_number 0 -hls_time 10 -hls_list_size 0 -f hls ./public/videos/_generated_.m3u8`.split(" "));
 
 ffmpeg.on('exit', () => console.log("All done!"));
