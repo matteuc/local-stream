@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "transcode": "node transcode.js",
-    "download": "node download.js",
+    "download": "node download.js"
   },
   "author": "",
   "license": "ISC",
