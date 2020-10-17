@@ -3,3 +3,4 @@ public/videos/*.m3u8
 public/videos/*.ts
 public/videos/*.mp4
 public/*.html
+yarn-error.log
